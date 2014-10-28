@@ -3,6 +3,8 @@ Doublespace
 
 A simple jQuery plugin that removes double spaces, or replaces them by a soft hyphen (`&shy;`). Useful when you write according SEO and seperate composed words. (E.g.: *zoekmachine optimalisatie* instead of *zoekmachineoptimalisatie*)
 
+See my [post](https://medium.com/@ico_/seo-writing-should-not-affect-spelling-51408320021e) on Medium about this project.
+
 How to use
 ----------
 
