@@ -8,14 +8,14 @@ How to use
 
 Write double spaces where needed: 
 
-<pre><h1>Zoekmachine  optimalisatie</h1></pre>
+	<h1>Zoekmachine  optimalisatie</h1>
 
 Then: 
 
-<pre>$('h1').doublespace();</pre>
+	$('h1').doublespace();
 
 If you don't want the double spaces replaced by a soft hyphen, just set the `softhyphen` option to `false`. 
 
-<pre>$('h1').doublespace({
-	softhyphen: false
-});</pre>
+	$('h1').doublespace({
+		softhyphen: false
+	});
