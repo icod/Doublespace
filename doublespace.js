@@ -11,7 +11,7 @@
 
 			return this.each(function() {
 				var html = $(this).html();
-				html = html.replace("  ", collapse_char);
+				html = html.replace( /([A-Za-z])(\s){2}([A-Za-z])/gm , "$1"+collapse_char+"$3" );
 				$(this).html(html);
 			});
 		}
